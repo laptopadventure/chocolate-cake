@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Yellowtail&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1200px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+header > * {
+  margin-top: 2rem;
+  align-self:flex-start;
+}
+
+header > div {
+  display: flex;
+}
+
+header ul {
+  display: flex;
+  margin-left: 0.5rem;
+}
+
+header ul > * {
+  color:white;
+  padding:0.5rem;
+  text-align: center;
+  background-color: rgb(48, 48, 48);
+  margin-left: 0.2rem;
+}
+
+header 
+
+/* only list items on the right */
+header li > i {
+  height: 1rem;
+  width: 1rem;
+}
+
+header p {
+  margin-left: 0.75rem;
+}
+
+.title-logo {
+  display: flex;
+}
+
+.coolgradient {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  background: repeating-linear-gradient(45deg, #ffffff, #ffffff 2px, #000000 4px);
+}
+
+.fa-utensils {
+  padding: 1.2rem;
+  font-size: 42px;
+  text-align: center;
+  color: white;
+  background-color: rgb(48, 48, 48);
+  height: 5rem;
+  width: 5rem;
+}
+
+.fa-wifi {
+  transform: translate(-2px, 3px) rotate(45deg);
+}
+
+.display {
+  font-family: 'Yellowtail', cursive;
+}
+
+.sans-serif {
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  font-size: 64px;
+}
+
+/* .subtitle {
+  
+} */
