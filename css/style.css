@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Yellowtail&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto:wght@300&family=Yellowtail&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -37,8 +36,9 @@ header ul > * {
   background-color: rgb(48, 48, 48);
   margin-left: 0.2rem;
 }
-
-header 
+header ul > *:first-child {
+  margin-left: 0;
+}
 
 /* only list items on the right */
 header li > i {
@@ -74,8 +74,56 @@ header p {
   transform: translate(-2px, 3px) rotate(45deg);
 }
 
+main {
+  margin-top: 4rem;
+}
+
+.hero {
+  width: 1200px;
+  margin: 1.5rem 0;
+}
+
+main > p {
+  margin: 1.5rem 0;
+  font-size: 20px;
+  text-indent: 2rem;
+  color:rgb(131, 125, 125);
+}
+
+main > section{
+  background-image: url(https://github.com/codefellows/seattle-code-201n25/blob/main/class-10/lab-a/lab-assets/list-bg.png?raw=true);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.35);
+
+}
+
+section > ul {
+  columns: 2;
+  padding: 2rem;
+  color:rgb(76, 71, 71);
+ 
+}
+main ul > li{ 
+  transition: all 0.5s ease-out;
+}
+
+main ul > li:hover {
+  color:rgb(165, 158, 158);
+}
+
+.ticked {
+  text-decoration: line-through;
+}
+
+.ticked:hover{
+  color:black;
+}
+
 .display {
   font-family: 'Yellowtail', cursive;
+}
+
+.passion {
+  font-family:'Passion One', cursive;
 }
 
 .sans-serif {
@@ -86,6 +134,41 @@ header p {
   font-size: 64px;
 }
 
-/* .subtitle {
+footer{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  color:rgb(131, 125, 125);
+}
+
+footer > div {
+  display:flex;
+  align-items: center;
+}
+h1{
+  font-size: 40px;
+}
+h3{
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+
+}
+
+footer div > * {
+  margin-left: 0.5rem;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+footer > a > div {
+  text-align: center;
+  background-color: #b44a20;
+  color: white;
+  width: 200px;
+  padding: 1rem 2rem;
   
-} */
+}
